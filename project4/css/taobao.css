@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-03-17 19:53:49
+ * @version $Id$
+ */
+.img-class{
+	position: absolute;
+}
+#img-1{
+	left: 41px;
+	top: 218px;
+	width: 20px;
+}
+#img-2{
+	left: 110px;
+	top: 220px;
+	width: 26px;
+}
+#img-3{
+	left: 183px;
+	top: 220px;
+	width: 26px;
+}
+#img-4{
+	left: 256px;
+	top: 220px;
+	width: 26px;
+}
+
+.m-bk{
+	background: url("../img/bk.jpg");
+	width: 608px;
+	height: 881px;
+	background-size: 50% 50%;
+	opacity: 0;
+	position: absolute;
+	z-index: 0;
+}
+.m-taobao{
+	width: 290px;
+	height: 425px;
+	background-color: rgba(200, 200, 200, 0.2);
+	box-sizing: content-box;
+	padding: 7px 7px;
+}
+.m-taobao-bk{
+	background-color: white;
+	width: 290px;
+	height: 425px;
+	z-index: -1;
+	position: absolute;
+}
+.m-taobao-hd{
+	width: 290px;
+	height: 50px;
+/*	display: block;*/
+	background-color: white;
+	padding: 0px 0px 0px 0px;
+}
+.m-taobao-hd>li{
+	list-style: none;
+	float: left;
+	padding: 10px 3px 0px 28px;
+}
+.m-taobao-hd>li>label{
+	display: block;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+	color: orangered;
+}
+.m-taobao-hd>li>span{
+	font-size: 10px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+
+}
+.m-taobao-hd2{
+	height: 30px;
+	background-color: white;
+	padding: 7px 0px;
+}
+.m-taobao-hd2-bk{
+	background-color: orange;
+	opacity: 0.7;
+	text-align: center;
+	height: 25px;
+}
+.m-taobao-hd2-bk>label{
+	padding: 0px 10px 0px 0px;
+	font-size: 9px;
+	font-weight: bold;
+	color: red;
+	opacity: 1;
+}
+.m-taobao-hd3{
+	height: 30px;
+	list-style: none;
+	background-color: white;
+	padding: 0px 0px 0px 10px;
+}
+.m-taobao-hd3>li{
+	display: inline;
+	padding: 0px 12px 0px 13px;
+}
+.m-taobao-hd3>li>label{
+	font-size: 10px;
+/*	background-color: lightblue;*/
+}
+#hd3-biao{
+	border-style:none none solid none;
+	border-width: 3px;
+	border-color: indianred;
+}
+.m-taobao-hd4{
+	list-style: none;
+	background-color: white;
+	padding: 5px 0px 16px 11px;
+}
+.m-taobao-hd4-1>li{
+	display: inline;
+/*	background-color: lightblue;*/
+	padding: 0px 25px 0px 0px;
+}
+.m-taobao-hd4-1>li>label{
+	padding:0px 0px 0px 0px;
+	text-align: left;
+	font-size: 10px;
+/*	background-color: orange;*/
+	color: orangered;
+}
+.m-taobao-hd4-2{
+	padding: 5px 0px 0px 0px;
+/*	background-color: orangered;*/
+}
+.m-taobao-hd4-2>li{
+	display: inline;
+/*	background-color: lightblue;*/
+	padding: 0px 41px 0px 0px;	
+}
+.m-taobao-hd4-2>li>label{
+	padding:0px 0px 0px 0px;
+	text-align: left;
+	font-size: 10px;
+/*	background-color: orange;*/
+	font-weight: bold;
+}
+.m-taobao-hd5{
+	height: 233px;
+	background-color: white;
+	list-style: none;
+}
+.m-taobao-hd5-bk{
+	height: 76px;
+/*	background-color: orange;*/
+}
+.m-taobao-hd5-bk-box{
+	width: 70.5px;
+	height: 74px;
+/*	padding: 0px 70.5px 53px 0px;*/
+    float: left;
+/*    //可以设置长宽，而display不行*/
+/*	background-color: lightgray;*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey lightgrey red lightgrey;
+}
+.m-taobao-hd5-bk-box>label{
+	display: block;
+	text-align: center;
+	padding: 43px 0px 0px 0px;
+/*	background-color: red;*/
+	font-size:10px ;
+}
+#box-1{
+	border-width: 1px;
+	border-color:red red white red;
+}
+#chf_1{
+	color: orange;
+}
+#chf_2{
+	color: orange;
+}
+.m-taobao-hd5-nbox{
+	height: 155px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white red red red;
+/*	background-color: lightgreen;*/
+}
+
+.m-taobao-hd5-nbox-hd1>li{
+	padding: 4px 1px 0px 23px;
+	float: left;
+/*	background-color: lightgreen;*/
+}
+.m-taobao-hd5-nbox-hd1>li>span{
+	font-size: 10px;
+}
+.m-taobao-hd5-nbox-hd1{
+	height: 33px;
+/*	background-color: lightgreen;*/
+}
+.m-taobao-hd5-nbox-box{
+	height: 50px;
+/*	background-color: lightgreen;*/
+}
+.m-taobao-hd5-nbox-box>li{
+	display: block;
+	margin: 1px 83px 0px 15px;
+	padding: 3px 0px 3px 4px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+	font-size: 10px;
+}
+.m-taobao-hd5-bk-label{
+	height: 28px;
+/*	background-color: lightgreen;*/
+}
+.m-taobao-hd5-bk-label>label{
+	font-size: 10px;
+	font-weight: bold;
+/*	padding: 0px 0px 0px 16px;*/
+}
+#s_text1{
+    padding: 0px 0px 0px 20px;
+}
+#s_text2{
+	color: orange;
+
+}
+.m-taobao-hd5-bk-button{
+	height: 28px;
+/*	background-color: lightgreen;*/
+	padding: 0px 0px 0px 15px;
+}
+.m-taobao-hd5-bk-button>li{
+	float: left;
+	width: 68px;
+	height: 22px;
+	padding: 6px 0px 0px 0px;
+	background-color: orange;
+	font-size: 10px;
+	text-align: center;
+}
+.m-taobao-hd5-bk-button>li>label{
+/*	background-color: red;*/
+	padding: 0px 0px 0px 0px;
+	color: white;
+}
+
+
+
